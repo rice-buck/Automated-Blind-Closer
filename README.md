@@ -6,6 +6,16 @@ This project transforms standard manual blinds into a smart home asset, allowing
 
 ---
 
+## Demo
+
+<p align="center">
+  <img src="media/demo.gif" alt="Pressing the hardware button opens and closes the blinds" width="300">
+  <br>
+  <em>Pressing the physical button tilts the blinds open, then closed again (shown at 2x speed).</em>
+</p>
+
+---
+
 ## Features
 
 * **Voice Control:** Fully integrated with Amazon Alexa via the SinricPro platform.
@@ -24,7 +34,15 @@ This project transforms standard manual blinds into a smart home asset, allowing
 * **Power Supply:** Dual-rail setup (12V for motor VMOT, 5V via Micro-USB for ESP32 VIN).
 * **Stability Components:** 470µF electrolytic decoupling capacitor on the VIN rail to handle Wi-Fi current spikes (~250mA) and prevent brownout resets.
 
+### Prototype Build
 
+<p align="center">
+  <img src="media/breadboard-with-motor.jpg" alt="Breadboard prototype with ESP32, A4988 driver, push button and NEMA 17 stepper motor" width="48%">
+  &nbsp;
+
+<p align="center">
+  The full breadboard prototype with the NEMA 17
+</p>
 
 ---
 
